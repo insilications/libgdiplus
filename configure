@@ -1,0 +1,1 @@
+--enable-shared --enable-static --with-pango --without-test --without-googletest --without-gtest --without-tests --disable-tests --disable-testing --disable-gtest

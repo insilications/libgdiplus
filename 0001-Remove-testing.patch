@@ -1,0 +1,26 @@
+From fe5c63c4a234a4140a081626105d6aee2788e865 Mon Sep 17 00:00:00 2001
+From: Francisco Boni <boboniboni@gmail.com>
+Date: Sat, 27 Feb 2021 16:15:22 -0300
+Subject: [PATCH] Remove testing
+
+---
+ Makefile.am | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 9ac01e1..d7e3a81 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -1,7 +1,7 @@
+ ACLOCAL_AMFLAGS = -I m4
+ 
+-SUBDIRS = src tests
+-DIST_SUBDIRS = src tests
++SUBDIRS = src
++DIST_SUBDIRS = src
+ 
+ pkgconfigdir = $(libdir)/pkgconfig
+ 
+-- 
+2.30.0
+

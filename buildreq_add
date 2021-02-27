@@ -1,0 +1,21 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+openjpeg
+openjpeg-dev
+openjpeg-staticdev
+libjpeg-turbo
+libjpeg-turbo-dev
+libjpeg-turbo-staticdev
+giflib
+giflib-dev
+giflib-staticdev
+tiff
+tiff-dev
+tiff-staticdev
+pango
+pango-dev
+cairo-dev
+cairomm-dev
+freetype-dev
+fontconfig-dev
+pkg-config
